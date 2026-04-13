@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins-skylayer",
+  "description": "Personal Claude Code plugin marketplace",
+  "owner": {
+    "name": "skylayer",
+    "email": "chenjsh@shanghaitech.edu.cn"
+  },
+  "plugins": [
+    {
+      "name": "metals-lsp",
+      "description": "Scala language server (Metals) for code intelligence on .scala, .sbt, .sc, and .mill files",
+      "version": "0.1.0",
+      "author": {
+        "name": "skylayer",
+        "email": "chenjsh@shanghaitech.edu.cn"
+      },
+      "source": "./plugins/metals-lsp",
+      "category": "development",
+      "strict": false,
+      "lspServers": {
+        "metals": {
+          "command": "metals",
+          "extensionToLanguage": {
+            ".scala": "scala",
+            ".sbt": "scala",
+            ".sc": "scala",
+            ".mill": "scala"
+          },
+          "startupTimeout": 300000
+        }
+      }
+    }
+  ]
+}
