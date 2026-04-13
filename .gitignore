@@ -4,3 +4,7 @@
 *~
 .idea/
 .vscode/
+
+# local scratch / working docs for plugin authoring
+plugins/*/cold-start-notes.md
+plugins/*/*-notes.md
