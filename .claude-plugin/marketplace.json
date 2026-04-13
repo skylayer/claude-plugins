@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins-skylayer",
+  "name": "skylayer-plugins",
   "description": "Personal Claude Code plugin marketplace",
   "owner": {
     "name": "skylayer",

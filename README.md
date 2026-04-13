@@ -19,7 +19,7 @@ Then browse plugins:
 or install directly:
 
 ```
-/plugin install <plugin-name>@claude-plugins-skylayer
+/plugin install <plugin-name>@skylayer-plugins
 ```
 
 ## Plugins
