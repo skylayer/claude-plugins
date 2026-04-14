@@ -17,19 +17,7 @@
       },
       "source": "./plugins/metals-lsp",
       "category": "development",
-      "strict": false,
-      "lspServers": {
-        "metals": {
-          "command": "metals",
-          "extensionToLanguage": {
-            ".scala": "scala",
-            ".sbt": "scala",
-            ".sc": "scala",
-            ".mill": "scala"
-          },
-          "startupTimeout": 300000
-        }
-      }
+      "strict": false
     }
   ]
 }

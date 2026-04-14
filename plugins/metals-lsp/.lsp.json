@@ -1,0 +1,19 @@
+{
+  "metals": {
+    "command": "metals",
+    "args": [],
+    "extensionToLanguage": {
+      ".scala": "scala",
+      ".sbt": "scala",
+      ".sc": "scala",
+      ".mill": "scala"
+    },
+    "transport": "stdio",
+    "initializationOptions": {
+      "isExitOnShutdown": true,
+      "statusBarProvider": "log-message"
+    },
+    "startupTimeout": 300000,
+    "maxRestarts": 3
+  }
+}
